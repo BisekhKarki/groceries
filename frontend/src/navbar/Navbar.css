@@ -1,0 +1,78 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 50px;
+    
+}
+
+.searching{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.search{
+    padding: 5px 30px;
+    width: 500px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+.search:focus{
+    border: 1px solid red;
+    box-shadow: 0 0 5px rgba(255, 75, 75, 0.5);
+}
+.searchButton{
+    position: relative;
+    left: 95%;
+    cursor: pointer;
+    font-size: 25px;
+}
+
+.cardButtons{
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+.back-button {
+    padding: 5px 10px;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    cursor: pointer;
+    transition:  0.3s ease, transform 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.back-button:hover {
+    background:black;
+    transform: scale(1.05);
+    color: white;
+}
+
+.cartLength{
+    font-size: 15px;
+    position: absolute;
+    top: 10px;
+    right: 8.6%;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    padding: 1px 5px;
+}

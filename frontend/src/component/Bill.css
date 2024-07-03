@@ -1,0 +1,84 @@
+.amount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+
+.bill {
+    background-color: white;
+    padding: 40px 50px;
+    box-shadow: 0 0 4px rgba(0, 0, 50, 0.5);
+    border-radius: 15px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+.bill:hover{
+    transition: all 0.5s ease;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 1);
+    cursor: pointer;
+    transform: translateY(-8px);
+}
+
+.bill h1 {
+    margin-bottom: 20px;
+}
+
+.billHead, .totalBill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.billHead {
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.totalBill {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.totalBill:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.backCart {
+    width: 15%;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 50, 0.5);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.backCart:hover {
+    transform: translateY(-2px);
+}
+
+.p, .q{
+    margin-right: 70px;
+}
+
+
+.ta{
+    font-size: 20px;
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+    left: 35%;
+}

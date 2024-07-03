@@ -1,0 +1,154 @@
+.signup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 80%;
+    height: 85vh;
+    position: relative;
+    left: 12%;
+    top: 50px;
+    /* padding: 10px 50px; */
+    box-shadow: 5px 8px 12px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image2 > img{
+    margin-top: 4px;
+    width: 623px;
+    height: auto;
+    border-radius: 0px 20px 20px 0px;
+    object-fit: cover;
+}
+
+.signupContainer{
+    position: relative;
+    top: -40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px 40px;
+    gap: 10px;
+    
+}
+
+.signupContainer> h1{
+    margin-left: 150px;
+    color: red;
+}
+
+.underline2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-bottom:10px ;
+}
+
+.email2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: red;
+}
+
+.name2{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: red;
+}
+
+.age2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: red;
+}
+
+.name2 >input{
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+.age2 >input{
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+
+}
+.email2 >input{
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.pass2{
+    color: red;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+}
+
+.pass2 >input{
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+.cp2{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    width: 100%;
+}
+
+.checking2{
+    margin-top: 10px;
+}
+
+.signupButton> button{
+    margin-top: 20px;
+    
+    width: 100%;
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.signupButton >button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    transition: all 0.8s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+.passwordForgot2{
+    margin-top: 10px;
+}

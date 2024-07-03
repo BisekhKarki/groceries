@@ -1,0 +1,123 @@
+.cart {
+    background-color: red;
+    color: white;
+    /* padding: 20px; */
+    /* min-height: 100vh; */
+}
+
+.cartItems {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.cartContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 120px;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.cartContainer:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.picture {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.picture:hover {
+    transform: scale(1.2);
+}
+
+.heads {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 120px;
+    padding: 15px 20px;
+    background-color: red; 
+    color: white; 
+    font-weight: bold; 
+    font-size: 1.2em; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-top: 20px;
+    transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.heads:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.activeButton{
+    font-size: 25px;
+}
+
+.quantityButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.minus{
+    background: none;
+    font-size: 30px;
+    color: red;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.plus{
+    background: none;
+    font-size: 30px;
+    color: green;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.value{
+    font-size: 20px;
+}
+
+
+.generateBill{
+    position: relative;
+    left: 30%;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    box-shadow: 0 0px 4px rgba(0, 0, 50, 1);
+    cursor: pointer;
+}
+.generateBill:hover{
+    transition: all 0.5s ease;
+    transform: translateY(-2px);
+}

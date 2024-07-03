@@ -1,0 +1,130 @@
+.login{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 78%;
+    height: 74.5vh;
+    position: relative;
+    left: 12%;
+    top: 80px;
+    /* padding: 10px 50px; */
+    box-shadow: 5px 8px 12px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image > img{
+    margin-top: 4px;
+    width: 545px;
+    height: auto;
+    border-radius: 0px 20px 20px 0px;
+    object-fit: cover;
+}
+
+.loginContainer{
+    position: relative;
+    top: -40px;
+    /* left: -20px; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    padding: 10px 10px;
+    gap: 10px;
+    
+}
+
+.loginContainer> h1{
+    margin-left: 50px;
+    color: red;
+}
+
+.underline{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    border-bottom:10px ;
+}
+
+.email{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    color: red;
+}
+
+.email >input{
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.pass{
+    color: red;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    
+}
+
+.pass >input{
+    font-size: 15px;
+    padding: 7px 10px;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+.cp{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    width: 100%;
+}
+
+.checking{
+    margin-top: 10px;
+}
+
+.loginButton> button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.loginButton >button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid gray;
+    transition: all 0.8s ease-in-out;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+.passwordForgot{
+    margin-top: 10px;
+}
+
+.loading{
+    position: relative;
+    top: 60px;
+    left: 40%;
+}
